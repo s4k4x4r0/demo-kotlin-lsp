@@ -3,6 +3,10 @@
  */
 package com.example.demo
 
+import io.github.oshai.kotlinlogging.KotlinLogging
+
+private val logger = KotlinLogging.logger {}
+
 class App {
     val greeting: String
         get() {
@@ -11,5 +15,5 @@ class App {
 }
 
 fun main() {
-    println(App().greeting)
+    logger.info { App().greeting }
 }
