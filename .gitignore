@@ -1,0 +1,6 @@
+.gradle
+build
+.kotlin
+
+# Kotlin Language Server extensionのダウンロード先
+.extensions
